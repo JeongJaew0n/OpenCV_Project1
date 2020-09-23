@@ -23,6 +23,8 @@ int main() {
 	cout << "[pt9] = " << pt9 << endl;
 	cout << (pt2 == pt6) << endl;
 	cout << "pt7과 pt8의 내적 : " << pt7.dot(pt8) << endl;
+	cout <<"pt10 = " << pt10 << endl;
+
 	return 0;
 
 }

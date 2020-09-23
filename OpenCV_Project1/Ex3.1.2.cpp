@@ -2,7 +2,7 @@
 using namespace cv;
 using namespace std;
 
-int main() {
+int main_2() {
 
 	//객체 기본 및 간결 선언 방식
 	Point3_<int> pt1(100,200,300);
@@ -20,4 +20,4 @@ int main() {
 	cout << "[pt6] = " << pt6 << endl;
 	cout << "[pt7] = " << pt7 << endl;
 	return 0;
-}
+}          

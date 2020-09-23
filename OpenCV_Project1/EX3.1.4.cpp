@@ -13,14 +13,19 @@ int main() {
 
 	// 간결선언 방식& 연산 적용
 	Rect rect4 = rect1 + (Point)pt1;
-	Rect rect5 = rect2 + (Size2f)sz;
+	Rect2f rect5 = rect2 + (Size2f)sz;
 	Rect2d rect6 = rect1 & (Rect)rect2;
+
+	Rect rect7 = rect1 & rect4;
 
 	//결과출력
 	cout << "rect3 = " << rect3.x << ", " << rect3.y << ", ";
 	cout << rect3.width << "x" << rect3.height << endl;
 	cout << "rect4 = " << rect4.tl() << " " << rect4.br() << endl;
 	cout << "rect5 크기 = " << rect5.size() << endl;
+	cout << "rect7의 시작좌표:  " << rect7.tl() << "rect7의 끝 좌표" << rect7.br() << endl;
 	cout << "[rect6] = " << rect6 << endl;
+	cout << "contains test yes=1 no =0 -> " << rect4.contains(Point(30,40)) << endl;\
+
 	return 0;
 }
