@@ -21,7 +21,7 @@ int main() {
 	//결과출력
 	cout << "rect3 = " << rect3.x << ", " << rect3.y << ", ";
 	cout << rect3.width << "x" << rect3.height << endl;
-	cout << "rect4 = " << rect4.tl() << " " << rect4.br() << endl;
+	cout << "rect4 시작좌표(좌측상단) : " << rect4.tl() << " rect4 끝좌표(우측하단) : " << rect4.br() << endl;
 	cout << "rect5 크기 = " << rect5.size() << endl;
 	cout << "rect7의 시작좌표:  " << rect7.tl() << "rect7의 끝 좌표" << rect7.br() << endl;
 	cout << "[rect6] = " << rect6 << endl;
