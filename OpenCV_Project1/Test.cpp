@@ -2,7 +2,7 @@
 using namespace std;
 using namespace cv;
 
-int main() {
+int main_test() {
 	Point pt1(10);
 
 	Size2d sz1(20, 30);
@@ -30,8 +30,6 @@ int main() {
 	}
 	cout << endl;
 	
-
-
 	cout << mx1 << endl;
 
 	cout << m2 << endl;
