@@ -12,14 +12,14 @@ void put_string(Mat &frame, string text, Point pt, int value) {
 VideoCapture capture;
 
 void zoom_bar(int value, void*) {
-	capture.set(CAP_PROP_ZOOM, value);
+	capture.set(CAP_PROP_ZOOM, value); 
 }
 
 void focus_bar(int value, void*) {
 	capture.set(CAP_PROP_FOCUS, value);
 }
 
-int main() {
+int main_alpha() {
 	capture.open(0);
 	if (!capture.isOpened()); {
 		cout << "카메라가 연결되지 않았습니다" << endl;
